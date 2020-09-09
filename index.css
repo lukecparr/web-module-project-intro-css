@@ -1,5 +1,27 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
 html{
 	font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,16 +31,23 @@ body {
 
 nav {
     text-align: center;
+    padding: 10px;
 }
+
 nav div {
     display: inline-block;
     padding: 10px;
+    margin: 10px 40px;
     border-radius: 10px;
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 #plan {
@@ -33,18 +62,28 @@ nav a{
     background-color: #FFCD69;
 }
 
+header div {
+    display: inline-block;
+
+}
+
 header p {
-display: inline-block;
+    margin: 1.5rem;
+}
+
+#narrow {
+    width: 50%;
+    margin: auto;
 }
 
 header img {
-    height: 10vh;
-    border-radius: 60px;
+    height: 15em;
+    border-radius: 8rem;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-display: inline-block;
+    font-size: 3rem;
 }
 
 section {
@@ -52,6 +91,9 @@ section {
     color: white;
     text-align: center;
     padding: 3px;
+    width: 90vw;
+    margin: 2rem auto;
+    
 }
 
 .icon {
@@ -61,10 +103,6 @@ section {
 
 footer {
     background-color: #F9E7DC;
-}
-
-footer nav {
-    padding: 20px;
 }
 
 footer img {
