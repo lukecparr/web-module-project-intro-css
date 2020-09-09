@@ -36,9 +36,11 @@ nav {
 
 nav div {
     display: inline-block;
-    padding: 1rem;
-    margin: 1rem 4rem;
+    padding: .5rem;
+    margin: 1rem 5rem;
     border-radius: 1rem;
+    width: 8rem;
+
 }
 
 nav a {
@@ -62,13 +64,23 @@ nav a:hover {
     background-color: #FFCD69;
 }
 
+/*
+header {
+    position: relative;
+}
+*/
+
 header div {
     display: inline-block;
-
 }
 
 header p {
     margin: 1.5rem;
+}
+
+#title {
+
+
 }
 
 #narrow {
@@ -79,6 +91,8 @@ header p {
 header img {
     height: 15rem;
     border-radius: 8rem;
+    margin:  2rem 0;
+    
 }
 
 h1 {
@@ -108,7 +122,7 @@ section p {
 #recs {
     margin:auto;
     width: 30vw;
-    font-size: .8rem;
+    font-size: .1rem;
 }
 
 span {
