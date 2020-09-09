@@ -1,0 +1,74 @@
+html{
+	font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+nav div {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+#plan {
+    background-color: #FF764E;
+}
+
+#learn {
+    background-color: #5ED3EB;
+}
+
+#get-involved{
+    background-color: #FFCD69;
+}
+
+header p {
+display: inline-block;
+}
+
+header img {
+    height: 10vh;
+    border-radius: 60px;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+display: inline-block;
+}
+
+section {
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+.icon {
+    height: 100px;
+    text-align: center
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer nav {
+    padding: 20px;
+}
+
+footer img {
+    margin: 0px;
+    width: 100vw;
+    max-height: 150px
+}
